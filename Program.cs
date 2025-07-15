@@ -32,6 +32,7 @@ namespace BaseDatos
                 Console.WriteLine("6. Exit");
                 Console.WriteLine("====================================================");
                 Console.Write("Seleccione una opción: ");
+                Console.WriteLine("xd");
                 string opcion = Console.ReadLine();
                 switch (opcion)
                 {
@@ -172,5 +173,6 @@ namespace BaseDatos
             Console.WriteLine("Cliente creado con exito.");
             Console.ReadLine();
         }
+        
     }
 }
