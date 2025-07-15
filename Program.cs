@@ -23,6 +23,7 @@ namespace BaseDatos
                 Console.Clear();
                 Console.WriteLine("====================================================");
                 Console.WriteLine("=============CRUD CLIENTES==========================");
+                Console.WriteLine("====================================================");
                 Console.WriteLine("             @@@@@      ");
                 Console.WriteLine("            @@@@@@      ");
                 Console.WriteLine("      @@@@@@@@@@@@      ");
@@ -35,18 +36,19 @@ namespace BaseDatos
                 Console.WriteLine("@@@  @@@@@@@@@@@@@   @@@");
                 Console.WriteLine("@@@ @@@@@@@@@@@@@@   @@@");
                 Console.WriteLine(" @@@@@@@      @@@@ @@@@ ");
-                Console.WriteLine("  @@@@@@          @@@@  ");
-                Console.WriteLine(" @@@@@@@@@@@@@@@@@@@    ");
+                Console.WriteLine("  @@@@@           @@@@  ");
+                Console.WriteLine(" @@@@@        @@@@@@    ");
                 Console.WriteLine("@@@@@@@@@@@@@@@@@@      ");
-                Console.WriteLine("1. Create Cliente");
-                Console.WriteLine("2. Read Cliente");
-                Console.WriteLine("3. Read all Clientes");
-                Console.WriteLine("4. Update Cliente");
-                Console.WriteLine("5. Delete Cliente");
+                Console.WriteLine();
+                Console.WriteLine("1. Crear un nuevo cliente");
+                Console.WriteLine("2. Buscar un cliente");
+                Console.WriteLine("3. Mostar lista de todos los clientes");
+                Console.WriteLine("4. Actualizar la informacion de un cliente");
+                Console.WriteLine("5. Borrar la informacion de un cliente");
                 Console.WriteLine("6. Exit");
-                Console.WriteLine("====================================================");
-                Console.WriteLine("========== LUIS GORDILLO LOOR (RED ONI) ============");
-                Console.Write("Seleccione una opción: ");
+                Console.WriteLine("=====================================================");
+                Console.WriteLine("==========*LUIS GORDILLO LOOR (RED ONI)*=============");
+                Console.Write("***************Seleccione una opción:********************");
                 Console.WriteLine();
                 string opcion = Console.ReadLine();
                 switch (opcion)
@@ -131,6 +133,7 @@ namespace BaseDatos
                 BaseDatos.BaseDeDatos.BaseDatosCliente.RemoveAt(objClienteBuscado.getId() - 1); // Eliminar el cliente existente
                 BaseDatos.BaseDeDatos.BaseDatosCliente.Insert(objClienteBuscado.getId() - 1, objClienteBuscado); // Insertar el cliente actualizado
                 Console.WriteLine("Cliente actualizado con éxito!");
+
             }
             else
             {
@@ -151,7 +154,7 @@ namespace BaseDatos
         private static void ReadCliente()
         {
             Console.Clear();
-            Console.WriteLine("*READ CLIENTE*");
+            Console.WriteLine("**************READ CLIENTE****************");
             Console.WriteLine();
             Console.Write("Ingrese la cédula del cliente a buscar: ");
             string cedula = Console.ReadLine();

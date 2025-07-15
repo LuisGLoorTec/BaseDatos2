@@ -20,7 +20,7 @@ namespace BaseDatos.Clases
         {
             return this.id;
         }
-0
+
         public void setNombres(string nombres)
         {
             this.nombres = nombres;
