@@ -23,7 +23,21 @@ namespace BaseDatos
                 Console.Clear();
                 Console.WriteLine("====================================================");
                 Console.WriteLine("=============CRUD CLIENTES==========================");
-                Console.WriteLine("====================================================");
+                Console.WriteLine("             @@@@@      ");
+                Console.WriteLine("            @@@@@@      ");
+                Console.WriteLine("      @@@@@@@@@@@@      ");
+                Console.WriteLine("   @@@@@@@@@@@@@@@@@@   ");
+                Console.WriteLine("  @@@@   @@@@@@@@@@@@@  ");
+                Console.WriteLine(" @@@     @@@@ @@@@  @@@ ");
+                Console.WriteLine("@@@     @@@@  @@@@   @@@");
+                Console.WriteLine("@@@    @@@@@  @@@@   @@@");
+                Console.WriteLine("@@    @@@@@@@@@@@@    @@");
+                Console.WriteLine("@@@  @@@@@@@@@@@@@   @@@");
+                Console.WriteLine("@@@ @@@@@@@@@@@@@@   @@@");
+                Console.WriteLine(" @@@@@@@      @@@@ @@@@ ");
+                Console.WriteLine("  @@@@@@          @@@@  ");
+                Console.WriteLine(" @@@@@@@@@@@@@@@@@@@    ");
+                Console.WriteLine("@@@@@@@@@@@@@@@@@@      ");
                 Console.WriteLine("1. Create Cliente");
                 Console.WriteLine("2. Read Cliente");
                 Console.WriteLine("3. Read all Clientes");
@@ -31,8 +45,9 @@ namespace BaseDatos
                 Console.WriteLine("5. Delete Cliente");
                 Console.WriteLine("6. Exit");
                 Console.WriteLine("====================================================");
+                Console.WriteLine("========== LUIS GORDILLO LOOR (RED ONI) ============");
                 Console.Write("Seleccione una opción: ");
-                Console.WriteLine("xd");
+                Console.WriteLine();
                 string opcion = Console.ReadLine();
                 switch (opcion)
                 {
